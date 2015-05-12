@@ -11,40 +11,67 @@
 
 //4. Add some styles to this project and make it something pretty to look at.
 
-function calculate(answer) {
-  return
-}
+var num_one = x;
+var num_two = y;
+var answer = (return);
 
-function Number(num_one, num_two) {
-  value;
-}
-var num_one = Number(value);
-var num_two = Number(value);
+var num_one = function (number) {
+  return number ;
+};
 
-var operators = ""
-var number1 = value1("".getAttribute('num_one'));
+var num_two = function (number) {
+  return number ;
+};
 
-var number2 = value2("".getAttribute('num_two'));
+var add = function (x, y) {
+  return x + y;
+};
 
-function calculate(value) {
-  var calculateBtn = event.target;
-  var calculateBtn = document.querySelector("OnClick");
+var multiply = function (x, y) {
+  return x * y;
+};
 
-}
-var calculateBtn = event.target;
-var calculateBtn = document.querySelector("submit");
+var subtract = function (x, y) {
+  return x - y;
+};
 
-num_one.addEventListener("submit", calculate);
-num_two.addEventListener("submit", calculate);
+var divide = function (x, y) {
+  return x / y;
+};
+// function calculate(answer) {
+//   return
+// }
 
-function response() {
-  OnClick(Answer);
-}
+// function Number(num_one, num_two) {
+//   value;
+// }
+// var num_one = Number(value);
+// var num_two = Number(value);
 
-calculateBtn.addEventListener("click", response);
+// var operators = ""
+// var number1 = value1("".getAttribute('num_one'));
 
-OnClick="Calc.Input.value += '1'"
+// var number2 = value2("".getAttribute('num_two'));
 
-function calculateBtn() {
-  return("answerValue")
-}
+// function calculate(value) {
+//   var calculateBtn = event.target;
+//   var calculateBtn = document.querySelector("OnClick");
+
+// }
+// var calculateBtn = event.target;
+// var calculateBtn = document.querySelector("submit");
+
+// num_one.addEventListener("submit", calculate);
+// num_two.addEventListener("submit", calculate);
+
+// function response() {
+//   OnClick(Answer);
+// }
+
+// calculateBtn.addEventListener("click", response);
+
+// OnClick="Calc.Input.value += '1'"
+
+// function calculateBtn() {
+//   return("answerValue")
+// }
