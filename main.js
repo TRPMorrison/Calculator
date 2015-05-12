@@ -15,14 +15,20 @@ function calculate(answer) {
   return
 }
 
+function Number(num_one, num_two) {
+  value;
+}
+var num_one = Number(value);
+var num_two = Number(value);
 
+var operators = ""
 var number1 = value1("".getAttribute('num_one'));
 
 var number2 = value2("".getAttribute('num_two'));
 
 function calculate(value) {
   var calculateBtn = event.target;
-  var calculateBtn = document.querySelector("submit");
+  var calculateBtn = document.querySelector("OnClick");
 
 }
 var calculateBtn = event.target;
@@ -32,7 +38,13 @@ num_one.addEventListener("submit", calculate);
 num_two.addEventListener("submit", calculate);
 
 function response() {
-  alert(Answer);
+  OnClick(Answer);
 }
 
 calculateBtn.addEventListener("click", response);
+
+OnClick="Calc.Input.value += '1'"
+
+function calculateBtn() {
+  return("answerValue")
+}
