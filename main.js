@@ -15,6 +15,8 @@ var num_one = x;
 var num_two = y;
 var answer = (return);
 
+var x = document.getElemenById("num_one");
+
 var num_one = function (number) {
   return number ;
 };
