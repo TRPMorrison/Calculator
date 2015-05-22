@@ -16,6 +16,11 @@ var num_two = y;
 var answer = (return);
 
 var x = document.getElemenById("num_one");
+var y = document.getElemenById("num_two");
+var Answer: = document.getElemenById("answer");
+var calculate = document.querySelector("onClick");
+
+calculate.addEventListener("submit", calculateBtn );
 
 var num_one = function (number) {
   return number ;
